@@ -1,12 +1,1 @@
-{
-  "name": "jetfadil-btc-5m-dashboard",
-  "version": "1.0.0",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node prepare_dashboard_patch.js jetfadil_style_btc5m_paper_v1.js && node jetfadil_style_btc5m_paper_v1_dashboard.js"
-  },
-  "dependencies": {
-    "express": "^5.2.1",
-    "ws": "^8.20.0"
-  }
-}
+"start": "node jetfadil_style_btc5m_paper_v1.js"
