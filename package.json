@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "node jetfadil_style_btc5m_paper_v1.js"
+    "start": "node jetfadil_style_btc5m_paper_v1.js && node jetfadil_style_btc5m_paper_v1_dashboard.js"
   },
   "dependencies": {
     "express": "^5.2.1",
