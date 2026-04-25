@@ -1784,3 +1784,20 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
+// ---- Railway dashboard server ----
+const express = require("express");
+const app = express();
+
+const PORT = process.env.PORT || 3000;
+
+app.get("/", (req,res)=>{
+    res.send("JetFadil BTC 5m bot running");
+});
+
+app.get("/health",(req,res)=>{
+    res.json({status:"running"});
+});
+
+app.listen(PORT,"0.0.0.0",()=>{
+    console.log("Dashboard running on port " + PORT);
+});
