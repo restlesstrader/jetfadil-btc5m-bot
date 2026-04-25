@@ -1,0 +1,17 @@
+{
+  "name": "jetfadil-btc5m-railway-dashboard",
+  "version": "3.2.0",
+  "private": true,
+  "description": "JetFadil BTC 5m paper bot with Railway web dashboard. Strategy logic unchanged from uploaded v3.1.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node jetfadil_style_btc5m_paper_v3_2_dashboard.js --auto-discover true --screen false",
+    "start:local": "node jetfadil_style_btc5m_paper_v3_2_dashboard.js --auto-discover true"
+  },
+  "dependencies": {
+    "ws": "^8.20.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
